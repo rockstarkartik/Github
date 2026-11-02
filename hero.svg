@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-label="Hi, I am Neetesh Singh Rajpoot, Full Stack Developer">
+  <title>Hi, I am Neetesh Singh Rajpoot</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0d13"/>
+      <stop offset="100%" stop-color="#1a1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff7a1a"/>
+      <stop offset="100%" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="280" rx="16" fill="url(#bg)" stroke="#2a2f3a" stroke-width="2"/>
+  <circle cx="900" cy="60" r="120" fill="#ff7a1a" opacity="0.08"/>
+
+  <text x="60" y="90" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#8b949e">Hi, I am</text>
+  <text x="60" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="url(#accent)">Neetesh Singh Rajpoot</text>
+  <text x="60" y="192" font-family="Consolas, Courier New, monospace" font-size="22" fill="#e6edf3">&gt; Full Stack Developer_</text>
+  <text x="60" y="222" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8b949e">Building clean, fast, and responsive web experiences.</text>
+
+  <rect x="60" y="240" width="90" height="26" rx="13" fill="#161b22" stroke="#ff7a1a"/>
+  <text x="105" y="258" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#e6edf3">HTML</text>
+  <rect x="160" y="240" width="90" height="26" rx="13" fill="#161b22" stroke="#ff7a1a"/>
+  <text x="205" y="258" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#e6edf3">CSS</text>
+  <rect x="260" y="240" width="110" height="26" rx="13" fill="#161b22" stroke="#ff7a1a"/>
+  <text x="315" y="258" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#e6edf3">JavaScript</text>
+  <rect x="380" y="240" width="90" height="26" rx="13" fill="#161b22" stroke="#ff7a1a"/>
+  <text x="425" y="258" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#e6edf3">React</text>
+</svg>
