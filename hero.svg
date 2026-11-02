@@ -16,7 +16,7 @@ b<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 
 
   <text x="60" y="90" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#8b949e">Hi, I am</text>
   <text x="60" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="url(#accent)">Neetesh Singh Rajpoot</text>
-  <text x="60" y="192" font-family="Consolas, Courier New, monospace" font-size="22" fill="#e6edf3">&gt; Full Stack Developer_</text>
+  <text x="60" y="192" font-family="Consolas, Courier New, monospace" font-size="22" fill="#e6edf3">&gt; Web Developer_</text>
   <text x="60" y="222" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8b949e">Building clean, fast, and responsive web experiences.</text>
 
   <rect x="60" y="240" width="90" height="26" rx="13" fill="#161b22" stroke="#ff7a1a"/>
