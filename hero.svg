@@ -76,7 +76,7 @@
   <rect x="50" y="36" width="200" height="30" rx="15" fill="#11131f" stroke="#22d3ee" stroke-opacity="0.5"/>
   <circle cx="68" cy="51" r="5" fill="#22d3ee" class="ping"/>
   <circle cx="68" cy="51" r="5" fill="#22d3ee"/>
-  <text x="82" y="56" class="sans" font-size="13" fill="#cbd5e1">meko </text>
+  <text x="82" y="56" class="sans" font-size="13" fill="#cbd5e1">J.A.R.V.I.S </text>
 
   <!-- Intro -->
   <text x="50" y="108" class="sans rise d1" font-size="22" fill="#94a3b8">Hi there, I'm</text>
