@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./hero.svg" alt="Hi, I am Neetesh Singh Rajpoot, Full Stack Developer" width="100%"/>
+<img src="./hero.svg" alt="Hi, I am Neetesh Singh Rajpoot, Web Developer" width="100%"/>
 
 </div>
 
