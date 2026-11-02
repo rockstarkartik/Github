@@ -84,7 +84,7 @@
 
   <!-- Cycling roles -->
   <text x="50" y="206" class="mono role" font-size="21" fill="#22d3ee">&gt;Web Developer_</text>
-  <text x="50" y="206" class="mono role r2" font-size="21" fill="#f472b6">&gt; React &amp; Node.js Builder_</text>
+  <text x="50" y="206" class="mono role r2" font-size="21" fill="#f472b6">&gt; CyberSecurity Agent_</text>
   <text x="50" y="206" class="mono role r3" font-size="21" fill="#a78bfa">&gt; Clean UI Craftsman_</text>
 
   <text x="50" y="238" class="sans rise d3" font-size="15" fill="#94a3b8">Building clean, fast and responsive web experiences, from pixels to APIs.</text>
