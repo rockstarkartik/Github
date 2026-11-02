@@ -102,7 +102,7 @@
   <circle cx="702" cy="78" r="5" fill="#22d3ee"/>
   <text x="670" y="118" class="mono line l1" font-size="14" fill="#a78bfa">const dev = {</text>
   <text x="686" y="142" class="mono line l2" font-size="14" fill="#e6edf3">name: <tspan fill="#22d3ee">"Neetesh"</tspan>,</text>
-  <text x="686" y="166" class="mono line l3" font-size="14" fill="#e6edf3">stack: [<tspan fill="#f472b6">"JS", "React", "Node"</tspan>],</text>
+  <text x="686" y="166" class="mono line l3" font-size="14" fill="#e6edf3">stack: [<tspan fill="#f472b6">"Python", "JS", "Html", "Css", "MongoDb</tspan>],</text>
   <text x="686" y="190" class="mono line l4" font-size="14" fill="#e6edf3">shipping: <tspan fill="#34d399">true</tspan>,</text>
   <text x="670" y="214" class="mono line l4" font-size="14" fill="#a78bfa">};</text>
   <rect x="670" y="226" width="8" height="14" fill="#22d3ee" class="cursor"/>
