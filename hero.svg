@@ -90,9 +90,9 @@
   <text x="50" y="238" class="sans rise d3" font-size="15" fill="#94a3b8">Building clean, fast and responsive web experiences, from pixels to APIs.</text>
 
   <g class="sans" font-size="13" fill="#94a3b8">
-    <text x="50" y="268" class="rise d4">📍Noida </text>
-    <text x="200" y="268" class="rise d4">🏢 T.O.C.S.I</text>
-    <text x="440" y="268" class="rise d4">💻 Open to work</text>
+    <text x="50" y="268" class="rise d4"> Noida </text>
+    <text x="200" y="268" class="rise d4"> T.O.C.S.I</text>
+    <text x="440" y="268" class="rise d4"> Open to work</text>
   </g>
 
   <!-- Terminal card -->
