@@ -1,1 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-label="ID badge and live dashboard">
+  <title>ID badge and live dashboard</title>
+  <defs>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="strap" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11131f"/>
+      <stop offset="1" stop-color="#0d0e16"/>
+    </linearGradient>
+    <linearGradient id="holo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f472b6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="badge-clip">
+      <rect x="90" y="120" width="180" height="250" rx="16"/>
+    </clipPath>
+  </defs>
 
+  <style>
+    .sans { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; }
+    .mono { font-family: Consolas, 'Courier New', monospace; }
+
+    /* Drop in from above */
+    .drop { animation: drop 1.2s cubic-bezier(.2, .9, .3, 1) both; }
+    @keyframes drop { from { transform: translateY(-320px); } to { transform: translateY(0); } }
+
+    /* Damped pendulum swing, pivot at the top of the strap */
+    .damped { transform-origin: 180px 0px; animation: damp 2.6s ease-out 1.2s both; }
+    @keyframes damp {
+      0% { transform: rotate(-14deg); }
+      25% { transform: rotate(9deg); }
+      45% { transform: rotate(-5deg); }
+      65% { transform: rotate(3deg); }
+      85% { transform: rotate(-1deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    /* Gentle sway forever after the drop */
+    .sway { transform-origin: 180px 0px; animation: sway 6s ease-in-out 3.8s infinite; }
+    @keyframes sway { 0%, 100% { transform: rotate(-1.5deg); } 50% { transform: rotate(1.5deg); } }
+
+    /* Holographic sweep across the badge */
+    .holo { animation: holo 4s ease-in-out 3.8s infinite; }
+    @keyframes holo { from { transform: translateX(-200px); } to { transform: translateX(260px); } }
+
+    /* Dashboard fade-ins */
+    .rise { opacity: 0; animation: rise .8s ease-out both; }
+    .r1 { animation-delay: .3s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+    /* Bars grow from the baseline */
+    .bar { transform-box: fill-box; transform-origin: 50% 100%; animation: grow 1.1s ease-out both; }
+    .b1 { animation-delay: .4s; }
+    .b2 { animation-delay: .5s; }
+    .b3 { animation-delay: .6s; }
+    .b4 { animation-delay: .7s; }
+    .b5 { animation-delay: .8s; }
+    @keyframes grow { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+  </style>
+
+  <!-- DASHBOARD (right side) -->
+  <g class="rise r1">
+    <rect x="310" y="40" width="570" height="325" rx="18" fill="url(#glass)" stroke="url(#hl)" stroke-opacity="0.6"/>
+    <text x="340" y="72" class="mono" font-size="12" fill="#22d3ee">// LIVE DASHBOARD</text>
+    <circle cx="846" cy="68" r="4" fill="#34d399"/>
+    <text x="856" y="72" class="mono" font-size="11" fill="#94a3b8">online</text>
+
+    <!-- KPI tiles: replace 0 with your real numbers -->
+    <rect x="340" y="90" width="160" height="82" rx="12" fill="#11131f" stroke="#2a2f45"/>
+    <text x="360" y="116" class="mono" font-size="11" fill="#94a3b8">REPOS</text>
+    <text x="360" y="157" class="sans" font-size="32" font-weight="700" fill="url(#name)">0</text>
+
+    <rect x="515" y="90" width="160" height="82" rx="12" fill="#11131f" stroke="#2a2f45"/>
+    <text x="535" y="116" class="mono" font-size="11" fill="#94a3b8">STARS</text>
+    <text x="535" y="157" class="sans" font-size="32" font-weight="700" fill="url(#name)">0</text>
+
+    <rect x="690" y="90" width="160" height="82" rx="12" fill="#11131f" stroke="#2a2f45"/>
+    <text x="710" y="116" class="mono" font-size="11" fill="#94a3b8">COMMITS</text>
+    <text x="710" y="157" class="sans" font-size="32" font-weight="700" fill="url(#name)">0</text>
+
+    <!-- Bar chart: replace labels and heights with your real top projects -->
+    <text x="340" y="210" class="mono" font-size="11" fill="#94a3b8">TOP PROJECTS BY STARS</text>
+    <line x1="340" y1="340" x2="850" y2="340" stroke="#2a2f45"/>
+    <rect class="bar b1" x="360" y="230" width="50" height="110" rx="4" fill="#22d3ee"/>
+    <rect class="bar b2" x="440" y="260" width="50" height="80" rx="4" fill="#22d3ee"/>
+    <rect class="bar b3" x="520" y="280" width="50" height="60" rx="4" fill="#22d3ee"/>
+    <rect class="bar b4" x="600" y="300" width="50" height="40" rx="4" fill="#22d3ee"/>
+    <rect class="bar b5" x="680" y="315" width="50" height="25" rx="4" fill="#22d3ee"/>
+    <text x="385" y="358" text-anchor="middle" class="mono" font-size="10" fill="#94a3b8">Proj 1</text>
+    <text x="465" y="358" text-anchor="middle" class="mono" font-size="10" fill="#94a3b8">Proj 2</text>
+    <text x="545" y="358" text-anchor="middle" class="mono" font-size="10" fill="#94a3b8">Proj 3</text>
+    <text x="625" y="358" text-anchor="middle" class="mono" font-size="10" fill="#94a3b8">Proj 4</text>
+    <text x="705" y="358" text-anchor="middle" class="mono" font-size="10" fill="#94a3b8">Proj 5</text>
+  </g>
+
+  <!-- LANYARD + BADGE (left side, drops in and swings) -->
+  <g class="drop">
+    <g class="damped">
+      <g class="sway">
+        <!-- Strap -->
+        <rect x="160" y="0" width="40" height="124" fill="url(#strap)"/>
+        <text transform="translate(172 14) rotate(90)" class="mono" font-size="8" letter-spacing="1" fill="#0d0e16">NEETESH • DEV •</text>
+
+        <!-- Card -->
+        <rect x="90" y="120" width="180" height="250" rx="16" fill="url(#glass)" stroke="url(#hl)" stroke-width="1.5"/>
+        <g clip-path="url(#badge-clip)">
+          <rect class="holo" x="90" y="120" width="70" height="250" fill="url(#holo)"/>
+        </g>
+
+        <!-- Metal clasp -->
+        <rect x="166" y="106" width="28" height="24" rx="4" fill="#cbd5e1"/>
+        <circle cx="180" cy="118" r="3" fill="#0d0e16"/>
+
+        <!-- Avatar ring (put your photo in README; initials here) -->
+        <circle cx="180" cy="196" r="47" fill="none" stroke="url(#hl)" stroke-width="3"/>
+        <circle cx="180" cy="196" r="42" fill="#11131f"/>
+        <text x="180" y="206" text-anchor="middle" class="sans" font-size="26" font-weight="700" fill="url(#name)">NS</text>
+
+        <!-- Identity -->
+        <text x="180" y="262" text-anchor="middle" class="sans" font-size="17" font-weight="700" fill="#e6edf3">Neetesh Singh</text>
+        <text x="180" y="282" text-anchor="middle" class="sans" font-size="17" font-weight="700" fill="#e6edf3">Rajpoot</text>
+        <text x="180" y="304" text-anchor="middle" class="mono" font-size="10" letter-spacing="1" fill="#22d3ee">FULL STACK DEVELOPER</text>
+
+        <!-- Barcode -->
+        <g fill="#e6edf3">
+          <rect x="112" y="318" width="2" height="24"/>
+          <rect x="118" y="318" width="1" height="24"/>
+          <rect x="122" y="318" width="3" height="24"/>
+          <rect x="129" y="318" width="1" height="24"/>
+          <rect x="133" y="318" width="1" height="24"/>
+          <rect x="138" y="318" width="2" height="24"/>
+          <rect x="144" y="318" width="4" height="24"/>
+          <rect x="152" y="318" width="1" height="24"/>
+          <rect x="157" y="318" width="2" height="24"/>
+          <rect x="163" y="318" width="1" height="24"/>
+          <rect x="168" y="318" width="3" height="24"/>
+          <rect x="175" y="318" width="1" height="24"/>
+          <rect x="180" y="318" width="2" height="24"/>
+          <rect x="186" y="318" width="1" height="24"/>
+          <rect x="191" y="318" width="3" height="24"/>
+          <rect x="198" y="318" width="1" height="24"/>
+          <rect x="203" y="318" width="2" height="24"/>
+          <rect x="209" y="318" width="1" height="24"/>
+          <rect x="214" y="318" width="4" height="24"/>
+          <rect x="222" y="318" width="1" height="24"/>
+          <rect x="227" y="318" width="2" height="24"/>
+          <rect x="233" y="318" width="1" height="24"/>
+          <rect x="238" y="318" width="3" height="24"/>
+        </g>
+        <text x="180" y="358" text-anchor="middle" class="mono" font-size="10" fill="#94a3b8">@neetesh01.offical</text>
+      </g>
+    </g>
+  </g>
+</svg>
