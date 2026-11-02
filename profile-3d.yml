@@ -2,8 +2,8 @@ name: Update 3D Contribution Graph
 
 on:
   schedule:
-    - cron: "0 18 * * *"
-  workflow_dispatch:
+    - cron: "0 18 * * *"     # Daily at 18:00 UTC
+  workflow_dispatch:          # Manual "Run workflow" button
 
 permissions:
   contents: read
@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write         # Needed only to commit the generated SVG
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
