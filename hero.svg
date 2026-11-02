@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Neetesh Singh Rajpoot, Full Stack Developer">
-  <title>Neetesh Singh Rajpoot - WEb Developer</title>
+  <title>Neetesh Singh Rajpoot - Web Developer</title>
   <defs>
     <linearGradient id="hl" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#22d3ee"/>
@@ -76,14 +76,14 @@
   <rect x="50" y="36" width="200" height="30" rx="15" fill="#11131f" stroke="#22d3ee" stroke-opacity="0.5"/>
   <circle cx="68" cy="51" r="5" fill="#22d3ee" class="ping"/>
   <circle cx="68" cy="51" r="5" fill="#22d3ee"/>
-  <text x="82" y="56" class="sans" font-size="13" fill="#cbd5e1">Open to collabs</text>
+  <text x="82" y="56" class="sans" font-size="13" fill="#cbd5e1">meko </text>
 
   <!-- Intro -->
   <text x="50" y="108" class="sans rise d1" font-size="22" fill="#94a3b8">Hi there, I'm</text>
   <text x="48" y="168" class="sans rise d2" font-size="48" font-weight="700" fill="url(#name)">Neetesh Singh Rajpoot</text>
 
   <!-- Cycling roles -->
-  <text x="50" y="206" class="mono role" font-size="21" fill="#22d3ee">&gt; Full Stack Developer_</text>
+  <text x="50" y="206" class="mono role" font-size="21" fill="#22d3ee">&gt;Web Developer_</text>
   <text x="50" y="206" class="mono role r2" font-size="21" fill="#f472b6">&gt; React &amp; Node.js Builder_</text>
   <text x="50" y="206" class="mono role r3" font-size="21" fill="#a78bfa">&gt; Clean UI Craftsman_</text>
 
