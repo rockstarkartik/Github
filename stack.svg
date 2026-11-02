@@ -1,1 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Tech stack">
+  <title>Tech I work with</title>
+  <defs>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
 
+  <style>
+    .sans { font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif; }
+    .mono { font-family: Consolas, 'Courier New', monospace; }
+    .chip {
+      fill: #11131f;
+      stroke: #22d3ee;
+      stroke-width: 1.2;
+      animation: glow 6s ease-in-out infinite;
+    }
+    .chip:nth-of-type(2) { animation-delay: .5s; }
+    .chip:nth-of-type(3) { animation-delay: 1s; }
+    .chip:nth-of-type(4) { animation-delay: 1.5s; }
+    .chip:nth-of-type(5) { animation-delay: 2s; }
+    .chip:nth-of-type(6) { animation-delay: 2.5s; }
+    @keyframes glow {
+      0%, 100% { stroke-opacity: .2; }
+      8%, 18% { stroke-opacity: 1; }
+      30% { stroke-opacity: .2; }
+    }
+  </style>
+
+  <rect x="8" y="8" width="984" height="284" rx="20" fill="#0d0e16"/>
+  <rect x="8" y="8" width="984" height="284" rx="20" fill="url(#dots)"/>
+  <rect x="8.75" y="8.75" width="982.5" height="282.5" rx="20" fill="none" stroke="url(#hl)" stroke-width="1.5"/>
+
+  <text x="30" y="46" class="sans" font-size="22" font-weight="700" fill="#e6edf3">Tech I work with</text>
+
+  <!-- Frontend -->
+  <text x="30" y="80" class="mono" font-size="12" fill="#a78bfa">// FRONTEND</text>
+  <g>
+    <rect class="chip" x="30" y="92" width="140" height="36" rx="10"/>
+    <text x="100" y="115" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">HTML5</text>
+    <rect class="chip" x="190" y="92" width="140" height="36" rx="10"/>
+    <text x="260" y="115" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">CSS3</text>
+    <rect class="chip" x="350" y="92" width="140" height="36" rx="10"/>
+    <text x="420" y="115" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">JavaScript</text>
+    <rect class="chip" x="510" y="92" width="140" height="36" rx="10"/>
+    <text x="580" y="115" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">React</text>
+    <rect class="chip" x="670" y="92" width="140" height="36" rx="10"/>
+    <text x="740" y="115" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">Tailwind</text>
+    <rect class="chip" x="830" y="92" width="140" height="36" rx="10"/>
+    <text x="900" y="115" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">Next.js</text>
+  </g>
+
+  <!-- Backend & Data -->
+  <text x="30" y="160" class="mono" font-size="12" fill="#a78bfa">// BACKEND &amp; DATA</text>
+  <g>
+    <rect class="chip" x="30" y="172" width="140" height="36" rx="10"/>
+    <text x="100" y="195" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">Node.js</text>
+    <rect class="chip" x="190" y="172" width="140" height="36" rx="10"/>
+    <text x="260" y="195" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">Express</text>
+    <rect class="chip" x="350" y="172" width="140" height="36" rx="10"/>
+    <text x="420" y="195" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">MongoDB</text>
+    <rect class="chip" x="510" y="172" width="140" height="36" rx="10"/>
+    <text x="580" y="195" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">SQL</text>
+    <rect class="chip" x="670" y="172" width="140" height="36" rx="10"/>
+    <text x="740" y="195" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">REST APIs</text>
+    <rect class="chip" x="830" y="172" width="140" height="36" rx="10"/>
+    <text x="900" y="195" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">Redis</text>
+  </g>
+
+  <!-- Tools -->
+  <text x="30" y="240" class="mono" font-size="12" fill="#a78bfa">// TOOLS</text>
+  <g>
+    <rect class="chip" x="30" y="252" width="140" height="36" rx="10"/>
+    <text x="100" y="275" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">Git</text>
+    <rect class="chip" x="190" y="252" width="140" height="36" rx="10"/>
+    <text x="260" y="275" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">GitHub</text>
+    <rect class="chip" x="350" y="252" width="140" height="36" rx="10"/>
+    <text x="420" y="275" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">Docker</text>
+    <rect class="chip" x="510" y="252" width="140" height="36" rx="10"/>
+    <text x="580" y="275" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">Linux</text>
+    <rect class="chip" x="670" y="252" width="140" height="36" rx="10"/>
+    <text x="740" y="275" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">VS Code</text>
+    <rect class="chip" x="830" y="252" width="140" height="36" rx="10"/>
+    <text x="900" y="275" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">Postman</text>
+  </g>
+</svg>
