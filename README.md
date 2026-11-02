@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./hero.svg" alt="Hi, I'm Neetesh Singh Rajpoot, Full Stack Developer" width="100%"/>
+<img src="./hero.svg" alt="Hi, I am Neetesh Singh Rajpoot, Full Stack Developer" width="100%"/>
 
 </div>
 
@@ -19,9 +19,9 @@
 
 - 🔭 Building clean, fast, and responsive web experiences
 - 🌱 Currently learning **React, Node.js, and System Design**
-- 👯 Open to collaboration on **open-source and freelance projects**
+- 👯 Open to **open-source and freelance** collaboration
 - 💬 Ask me about **Web Development, JavaScript, and DSA**
-- 📫 Reach me at **neetesh.official01@gmail.com**
+- 📫 **neetesh.official01@gmail.com**
 
 </td>
 </tr>
@@ -38,7 +38,15 @@
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" height="170"/>
 </p>
 
 ---
@@ -48,24 +56,24 @@
 <table>
 <tr><th>Project</th><th>Description</th><th>Tech</th></tr>
 <tr>
-  <td><a href="https://github.com/YOUR_USERNAME/project-1" rel="noopener noreferrer"><b>Project One</b></a></td>
+  <td><a href="https://github.com/YOUR_USERNAME/project-1"><b>Project One</b></a></td>
   <td>Interactive modern web app</td>
   <td><code>JavaScript</code> <code>CSS</code></td>
 </tr>
 <tr>
-  <td><a href="https://github.com/YOUR_USERNAME/project-2" rel="noopener noreferrer"><b>Project Two</b></a></td>
+  <td><a href="https://github.com/YOUR_USERNAME/project-2"><b>Project Two</b></a></td>
   <td>Full-stack app with REST API</td>
   <td><code>React</code> <code>Node.js</code></td>
 </tr>
 <tr>
-  <td><a href="https://github.com/YOUR_USERNAME/project-3" rel="noopener noreferrer"><b>Project Three</b></a></td>
+  <td><a href="https://github.com/YOUR_USERNAME/project-3"><b>Project Three</b></a></td>
   <td>Responsive landing page</td>
   <td><code>HTML</code> <code>CSS</code></td>
 </tr>
 </table>
 
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME?tab=repositories" rel="noopener noreferrer"><b>→ View all repositories</b></a>
+  <a href="https://github.com/YOUR_USERNAME?tab=repositories"><b>→ View all repositories</b></a>
 </p>
 
 ---
